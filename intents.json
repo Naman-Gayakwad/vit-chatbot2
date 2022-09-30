@@ -25,6 +25,264 @@
      "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
      "responses": ["Please provide us your complaint in order to assist you",
                    "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
-     }
+      },
+     {"tag": "counselling date",
+      "patterns": ["what is my counselling date", "what will be my counselling date","what is counselling date "],
+      "responses":["Based on your rank you are designated a phase. Kindly refer Important Dates in result portal."]
+      },
+     {"tag": "1 lakh rank",
+      "patterns": ["I am 1 Lakh above rank holder. Can I take admission in Vellore and Chennai campus?","i have 1 lakh rank where can i get admission ", "which vit would i get admission if i have under 1 lakh rank "],
+      "responses": ["You are eligible only for VIT-AP and VIT-Bhopal campus."]
+
+      },
+     {"tag": "counselling fee ",
+      "patterns": ["How do I make counselling fee payment", "how to pay counselling fee"],
+      "responses": ["Counselling fee should be paid in online. The option is available in result page, Read the important instructions carefully before making payment."]
+
+      },
+     {"tag": "debited but receipt not generated",
+      "patterns": ["What in case my amount got debited but receipt not generated?","debited but receipt not generated"],
+      "responses": ["Do not attempt to pay again, Please wait for another two hours to get the response from the gateway"]
+
+      },
+     {"tag": "paid twice",
+      "patterns": ["Will I get refund in case I have paid twice", "if i had paid twice will i get refund "],
+      "responses": ["Yes. In case of double payment excess amount will be refunded back to your account In case of any issues in fee payment and refund? Mail your query to info@vitbhopal.ac.in."]
+
+      },
+     {"tag": "missed my fee payment",
+      "patterns": ["If I missed my counselling fee payment on time, will I be losing my chance of participation in the counselling","what if i missed my counselling fee payment","if i missed my counselling fee payment what to do"],
+      "responses": [" No. You can make the payment for participating in next subsequent phase.","You can make the payment for participating in next subsequent phase."]
+
+      },
+     {"tag": "issue in paying fees through portal",
+      "patterns": ["unable to pay fees through portal", "issue in online fee payment","fees portal not working"],
+      "responses": [ "Kindly contact our support staff on 9384670522, 7024181840 and 7024181841 or email us at feescollection@vitbhopal.ac.in:"]
+      },
+
+     {"tag": "courses offered",
+      "patterns": ["what are the different courses offered at vit","what streams are offered at vit"],
+      "responses": [ "Please refer to the website for detailed information. Visit: https://vitbhopal.ac.in/programmes-offered/"]
+      },
+
+     {"tag": " confirmed admission",
+      "patterns": ["how can i accertain that my admission is confirmed?","admission confirmation where?"],
+      "responses": [" After the advance payment we will provide the provisional admission letter during the counseling, once the candidate submits the proof of fulfilling eligibility criteria admission will be made confirmed."]
+      },
+
+     {"tag": "scholarships ",
+      "patterns": ["what are the different scholarships offered by vit","types of scholarships at vit"],
+      "responses": ["In VIT Bhopal University GV scholarships are being provided to top VITEEE rank holders.There is a STAR scheme scholarship for the district toppers (1 Boy, 1 Girl) from each district of M.P."]
+      },
+
+     {"tag": "international candidate eligibility criteria",
+      "patterns": ["What is the eligibility criteria for international applicants","how can international candidates apply to vit and what is the eligibility criteria for the same"],
+      "responses": ["We welcome International students. For more information, please visit https://vitbhopal.ac.in/international"]
+      },
+
+     {"tag": "internships at vit",
+      "patterns": ["Does vit help or provide the students with internships","internships at vit"],
+      "responses": ["The Placement Cell arranges training and then on-boarding for students in various companies during the third year.Companies like Amazon, Visa, Virtusa, HPE, Appointy have come for on-campus drives for Summer internships.Our students of pre-final year 2018 batch have been successful in VISA, Virtusa, HPE and Appointy.Some of these internships have stipend and has potential for Dream/ Super Dream conversion later.The Programme Chairs take special care in arranging internships for the students in the companies of respective interest and scope, as well."]
+      },
+
+     {"tag": "educational loan assistance",
+      "patterns": ["does vit provide educational loan assistance","will students recieve educational loan assistance"],
+      "responses": [ "Yes, the students will receive educational loan assistance."]
+      },
+     {"tag": "faculties at vit bhopal",
+      "patterns": ["how are the faculty like at vit bhopal","is the faculty at vit bhopal good?"],
+      "responses": [ "100 percent doctoral faculties having divergent expertise viz.ACM Speaker, NASCOM certified Trainer, Ethical Hacker, distinguished Scientists and Researchers intheir respective areas ensures overall development of the students.To know more about faculty, please visit: https://vitbhopal.ac.in/faculty/"]
+      },
+     {"tag": "sibling discount",
+      "patterns": ["is there any discount on the fees of siblings studying in same campus?","can siblings studying in same campus get discount on fees?"],
+      "responses": [ " No, the discount in fees is not available in the case of siblings"]
+      },
+     {"tag": "change alloted category",
+      "patterns": ["is it possible to change alloted category?","can i upgrade to a better category?", "can i can change alloted category "],
+      "responses": [ "No, It is not possible to change the category"]
+      },
+     {"tag": "online or offline classes ",
+       "patterns": ["will the classes be held online or offline?"],
+      "responses": [ "It depends on the current pandemic situation. You are requested to keep checking your vit bhopal mail for any intimation regarding the same"]
+      },
+     {"tag": "placement assistance on campus",
+      "patterns": ["will the placement assistance be provided on campus?","does the camnpus help with placements?"],
+      "responses": ["Yes, we do provide placement assistance on campus."]
+      },
+     {"tag": "girl safety in vit campus",
+      "patterns": ["what about the safety of girls at the vit bhopal campus?","are girls safe at vit bhopla?"],
+      "responses": ["The university authorities ensure hostel life with safety, well maintained and supportive stay that would meet every individual’s comfort and development.The campuses are under 24*7 surveillance."]
+      },
+     {"tag": "Integrated Mtech placement opportunities",
+      "patterns": ["will the integrated MTech students get the same opportunities as BTech students?","how are the placements for integrated MTech studnets?"],
+      "responses": ["Yes, the integrated M.Tech students will get the same placement opportunities as that of B.Tech.More details can be found in the given link: https://vit.ac.in/placements/overview"]
+      },
+     {"tag": "Medical facilities",
+      "patterns": ["what are the medical facilities available for the student on campus?"],
+      "responses": ["Health Care center is available 24*7 in the campus with a doctor, nurse, and ambulance facility."]
+      },
+     {"tag": "fee refund policy",
+      "patterns": ["what is the fee refund policy?"],
+      "responses": ["The fee refund policy is clearly mentioned in the email that students have received from the ug admission office andalso these details are available in student login.Added to this, the details are available on the brochure which is updated on our VIT website."]
+      },
+     {"tag": "vegetarian food ",
+      "patterns": ["will there be vegetarian food in hostel mess?","vegetarian food in mess?"],
+      "responses": ["Yes"]
+      },
+     {"tag": "hostel room allotment criteria",
+      "patterns": ["what is the criteria for hostel room allotment?"],
+      "responses": ["There are no criteria for hostel room allotment for the first year. Its been done on a first come first serve basis."]
+      },
+     {"tag": "visit the campus",
+      "patterns": ["When can I visit the campus (VIT Bhopal)"],
+      "img": "jetbrains://pycharm/navigate/reference?project=Athena&path=Screenshot 2022-09-27 171217.png"
+
+      },
+     {"tag": "fee structure of all programmes",
+      "patterns": ["I want to know the category wise fee structure of all programmes ", "what is the fee structure of all programmers ", ""],
+      "responses": ["Please refer Fee Structure tab in Result Portal to know about fee structure of various programmes in all four campuses."]
+
+      },
+     {"tag": "missed the deadline for choice filling",
+      "patterns": ["What should I do in case my I have paid counselling fee and missed the deadline for choice filling"],
+      "responses": ["You can do the choice filling in next subsequent phase."]
+
+      },
+     {"tag": "not allotted with any seat",
+      "patterns": ["I was not allotted with any seat in my respective phase.What should 1 do?", "I was not allotted with an seat , what should i do"],
+      "responses": ["Don’t worry. You will get your chance in next subsequent phase so that you can give your new choices for getting allotment in next phase."]
+
+       },
+     {"tag": "allotment in case I am participating in other phase",
+       "patterns": ["Would you maintain my seniority in allotment in case Iam participating in other phase choice filling?"],
+      "responses": [" Yes. Allotment is based on your rank and available choices in the next subsequent phases."]
+
+      },
+     {"tag": "Edit or Prioritize or Delete",
+      "patterns": ["Is it possible to Edit / Prioritize/ Delete my choices?", "can i able to edit or delete my choices "],
+      "responses": [" Yes. You can edit till the deadline for choice filling. After adding the choice you may find ‘Edit Choice’ button."]
+
+      },
+     {"tag": "edit or delete or prioritize after the deadline of choice filling",
+      "patterns": ["What should I do in case I want to edit/delete/prioritize my choices after the deadline of choice filling?","can i edit or delete choice after the deadline of choice filling"],
+      "responses": ["It is not possible to edit/delete/prioritize your choices after the deadline of choice filling is over."]
+
+      },
+     {"tag": "minimum or maximum choice",
+      "patterns": ["Is there any minimum or maximum choice to be given?"],
+      "responses": ["You are advised to give Preferred Maximum number of choices to maximize your chance of getting admitted in our prestigious institution."]
+
+      },
+     {"tag": "freeze my choices.",
+      "patterns": ["Do I need to freeze my choices.", "how to freeze my choices."],
+      "responses": ["Once the deadline is over your choices are automatically freezed and you will get Email notification on the list of choices populated by you."]
+
+      },
+     {"tag": "minor / specialization'",
+      "patterns": ["What does minor/specialization drop down means?" , "what is minor/specialization ","what is minor","what is specialization"],
+      "responses": ["This drop down menu, list out the minor and specialization courses available for the respective branch you have chosen."]
+
+      },
+     {"tag": "fee category is not listing in drop down menu",
+      "patterns": ["What does it mean in case of the particular fee category is not listing in drop down menu during choice filling?", "what is the reason fee category is not listing in drop down menu during choice filling?  "],
+      "responses": [" It means that the seats under respective category are exhausted in the earlier phase itself."]
+
+      },
+     {"tag": "separate fee for minor / specialization",
+      "patterns": ["Is there any separate fee for minor / specialization ?", "is the fee for minor / specialization  is different"],
+      "responses": ["No. It is as per the Core branch/ Group you are opting for."]
+
+      },
+     {"tag": "Core only",
+      "patterns": ["What is Core only that was automatically getting selected in minor / specialization drop down means?", "What is Core only"],
+      "responses": ["It means there is no minor or specialization available for the respective branch."]
+
+      },
+
+     {"tag": "Seat Allotment given in Important Dates",
+      "patterns": ["What is 'Seat Allotment' given in 'Important Dates' section means?" , "What is 'Seat Allotment'","What is 'Seat Allotment' in 'Important Dates"],
+      "responses": ["Based on your VITEEE rank and the prioritized choices you have given, seat allotment will be done. You can visit the result portal on the given date to view your seat allotment result."]
+
+      },
+     {"tag": "allotted with a course as per my choice",
+      "patterns": ["I was allotted with a course as per my choice. What should I do next?", "what to do next after i got allotted with a course as per my choice ", "I was allotted with a course. What should I do next?", "what to do next after i got allotted with a course"],
+      "responses": [" Payment of the Fee before the deadline."]
+
+      },
+     {"tag": "payment options",
+      "patterns": ["What are the payment options available?"],
+      "responses": ["Accept with Partial Payment: Pay advance amount first and then balance tuition fee next. • Accept with Full Payment: Pay full tuition fee amount."]
+
+      },
+     {"tag": "Provisional Allotment Order",
+      "patterns": ["How do I get the Provisional Allotment Order for my allotment ?","How to get the Provisional Allotment Order for my allotment ?"],
+      "responses": [" Either advance or full tuition fee need to be paid in order to download the provisional allotment order."]
+
+      },
+     {"tag": "missed my deadline for making payment",
+      "patterns": ["What if in case I have missed my deadline for making advance payment or direct full fee payment?", "what i missed my deadline for making advance payment ", "what i missed my deadline for making direct full fee payment"],
+      "responses": ["Sorry. Your admission will be cancelled."]
+
+      },
+     {"tag": "not satisfied with the allotment",
+      "patterns": ["I was not satisfied with the allotment. What should I do? Will I get another chance?", "I was not satisfied with the allotment. What should I do?" , "what should i do if i am not satisfied with the allotment"],
+      "responses": ["Once allotted was done as per your choice no more chances will be given."]
+
+      },
+     {"tag": "receipt for my Tuition Fee",
+      "patterns": ["Where can I find the receipt for my Tuition Fee?", "where to find receipt of my tuition fee"],
+      "responses": ["You can download it from Payment Portal. Click on Receipts Download link."]
+
+      },
+     {"tag": "withdraw my allotment.",
+      "patterns": ["I have paid my Full tuition fee/Advance fee on time. I would like to withdraw my allotment. What should I do and whom should I contact?" ,"I would like to withdraw my allotment." ],
+      "responses": [" Refer Refund Policy given in your Provisional Order."]
+
+      },
+     {"tag": "counselling missed / missed counselling  ",
+      "patterns": ["The candidate will get another turn for the counseling schedule which he/she missed?", "will i get another turn if i had missed counselling " ],
+      "responses": ["No, the student will not get another chance for counseling after the completion of all the phases of it."]
+
+      },
+     {"tag": "change the allotted B.Tech Course / Branch ",
+      "patterns": ["Can one change the allotted B.Tech Course / Branch?", " can i change the allotted Course ","can i change the allotted Branch"],
+      "responses": ["No, one can’t change the B.Tech Course /Branch after the allotment."]
+
+      },
+     {"tag": "change the B.Tech Course / Branch during the course'",
+      "patterns": ["Is it possible to change the B.Tech Course / Branch during the course?" , "can i change my Course / Branch ", "can i change the Course / Branch during the course", "can i change the Branch during the course", "can i change the Course during the course"],
+      "responses": [" Yes, students can avail the branch change option which is available after the completion of first year to meritorious students of the university based on their overall performance. Guidelines will be shared with the admitted students in due course."]
+
+      },
+     {"tag": "Campus Change",
+      "patterns": ["Is there any provision of Campus Change?" , "Is it possible to change Campus ", "can i change campus "],
+      "responses": ["No, the campus change option is not available in VIT."]
+
+      },
+     {"tag": "placement is centralized",
+      "patterns": ["is the placement are centralized" , "Whether the placement is centralized or not"],
+      "responses": ["Yes, we have a centralized placement system coordinated by VIT Career Development Centre."]
+
+      },
+     {"tag": "counseling fee refundable",
+      "patterns": ["Is the counseling fee refundable?"],
+      "responses": ["No. The counseling fee is non-refundable."]
+
+      },
+     {"tag": "fails to attempt the first rounds of counseling",
+      "patterns": ["Student fails to attempt the first rounds of counseling will he/she get the category offered in the last phase?","will i get another chance if i fails to attempt the first rounds of counseling" , "i fails to attempt the first rounds of counseling , will i get another chance" , "i missed the first rounds of counseling "],
+      "responses": [" In VITEEE counselling, if the student has paid the counselling fees and did n’t appear for the counselling he or she wo n’t get the chance of re-counselling."]
+
+      },
+     {"tag": "Admission Process",
+      "patterns": ["Brief Outline of the Admission Process", " what is the Admission Process " , " what are the  Admission Process"],
+      "responses": ["Step 1: Know your rank by visiting the said portal. VIT B.Tech. Results \nStep 2: Pay a non-refundable counselling fee of Rs.5900 (inclusive of GST) in the counselling portal before the due date specified for each phase of counselling. \nStep 3: After payment of counselling fee, you can participate in the online counselling process, and fill in your choice of campus, programme and category.\n Step 4: Based on your rank and on the availability of seat, you will be allotted a programme, campus and category on the specified allotment date."]
+
+      },
+     {"tag": "ONLINE COUNSELLING SYSTEM",
+      "patterns": ["what is ONLINE COUNSELLING SYSTEM " , "ONLINE COUNSELLING SYSTEM"],
+      "responses": ["Step 1:  Know your VIT rank\nStep 2:  Acknowledge that you have read the instructions before you proceed\nStep 3: Give your choices of preferred Campus /Programme/Category/Specialisation/Minor (if any) \n Step  4: you can edit the choices till the deadline\nStep  5:  once the choice filling is locked you may view your choices for future reference\nStep  6:  Seat Allotment will be done after the locking period and it is purely based on your rank \n Step  7: Once allotted, you may download provisional allotment letter from the payment portal, after paying the advance tuition fee"]
+
+      }
 ]
 }
